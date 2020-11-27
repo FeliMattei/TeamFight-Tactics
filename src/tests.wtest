@@ -1,0 +1,33 @@
+import campeones.*
+import habilidades.*
+
+/*describe "Ataque básico"{	
+	
+	test "cuando un campeón realiza un ataque básico a otro, este pierde vida de acuerdo al daño del atacante y a su armadura" {
+		
+	}
+	
+	test "cuando un campeón realiza un ataque básico, suma uno de maná"{
+
+	}
+}
+
+describe "Habilidades"{
+	
+	test "reinicio de maná al utilizar una habilidad"{
+
+	}
+	
+	test "flecha encantada"{
+
+	}
+	
+	test "ponerse duro"{
+
+	}
+	
+	test "devolver danio"{
+
+	}
+	
+}*/

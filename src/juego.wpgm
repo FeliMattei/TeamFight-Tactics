@@ -1,0 +1,5 @@
+import configuracion.*
+
+program programa {
+	juego.iniciar()
+}
