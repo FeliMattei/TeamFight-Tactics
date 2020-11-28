@@ -31,26 +31,24 @@ Cada campeón posee una [habilidad](https://github.com/FeliMattei/TeamFight-Tact
 
 ![Braum](imagenes/Campeones/braum.png)   *"El corazón es el músculo más fuerte"*
 
-Es un campeón que acumula maná al recibir ataques.
-
 #### Estadísticas:  
 Precio: 1  
-Vida: 500  
-Armadura: 5  
-Resistencia Mágica: 5  
-Rango: 2  
-Daño Mágico: 3  
-Daño Básico: 70  
-Velocidad de Ataque: 1450  
-Rol: Scout
-Habilidad: [Devolver Daño](https://github.com/FeliMattei/TeamFight-Tactics/blob/master/README.md#devolver-daño) o [Ponerse Duro](https://github.com/FeliMattei/TeamFight-Tactics/blob/master/README.md#ponerse-duro)
+Vida: 640  
+Armadura: 45  
+Resistencia Mágica: 30  
+Rango: 1  
+Daño Mágico: 0  
+Daño Básico: 0  
+Velocidad de Ataque: 1800  
+Rol: Scout  
+Habilidad: [Devolver Daño](https://github.com/FeliMattei/TeamFight-Tactics/blob/master/README.md#devolver-daño) o [Ponerse Duro](https://github.com/FeliMattei/TeamFight-Tactics/blob/master/README.md#ponerse-duro)  
+Criterio de búsqueda: El más cercano  
+Acumula maná al recibir ataques.  
 
 ### Ashe
 
 ![Ashe](imagenes/Campeones/ashe.png)   *"Todo el mundo en una flecha"*
 
-Acumula maná al atacar a un oponente.
-
 #### Estadísticas:  
 Precio: 2  
 Vida: 500  
@@ -60,46 +58,47 @@ Rango: 2
 Daño Mágico: 3  
 Daño Básico: 70  
 Velocidad de Ataque: 1450  
-Criterio de Búsqueda: El más cercano  
 Rol: Tirador  
-Habilidad: [Flecha Encantada](https://github.com/FeliMattei/TeamFight-Tactics/blob/master/README.md#flecha-encantada)
+Habilidad: [Flecha Encantada](https://github.com/FeliMattei/TeamFight-Tactics/blob/master/README.md#flecha-encantada)  
+Criterio de Búsqueda: El más cercano  
+Acumula maná al atacar a un oponente.  
 
 ### Zed
 
 ![Zed](imagenes/Campeones/zed.png)   *"La espada invisible es la mas mortífera"*
 
-Ejecuta la habilidad sin requerir de la maná.
-
 #### Estadísticas:  
 Precio: 2  
 Vida: 500  
-Armadura: 5  
-Resistencia Mágica: 5  
-Rango: 2  
+Armadura: 10  
+Resistencia Mágica: 15  
+Rango: 1  
 Daño Mágico: 3  
-Daño Básico: 70  
-Velocidad de Ataque: 1450  
-Rol: Asesino 
-Habilidad: [Cuchillada Sombría](https://github.com/FeliMattei/TeamFight-Tactics/blob/master/README.md#cuchillada-sombría)
+Daño Básico: 55  
+Velocidad de Ataque: 1250  
+Rol: Asesino  
+Habilidad: [Cuchillada Sombría](https://github.com/FeliMattei/TeamFight-Tactics/blob/master/README.md#cuchillada-sombría)  
+Criterio de Búsqueda: El más cercano  
+Ejecuta la habilidad sin requerir de la maná.
 
 ### Vayne
 
 ![Vayne](imagenes/Campeones/vayne.png)   *"Persigamos a los que han caído en la oscuridad"*
 
-Acumula maná al atacar a un oponente.
-
 #### Estadísticas:  
 Precio: 3  
-Vida: 500  
-Armadura: 5  
+Vida: 430  
+Armadura: 10  
 Resistencia Mágica: 5  
 Rango: 2  
 Daño Mágico: 3  
 Daño Básico: 70  
-Velocidad de Ataque: 1450  
+Velocidad de Ataque: 1400  
 Criterio de Búsqueda: El más cercano  
 Rol: Tirador  
-Habilidad: [Proyectil de Plata](https://github.com/FeliMattei/TeamFight-Tactics/blob/master/README.md#proyectil-de-plata)
+Habilidad: [Proyectil de Plata](https://github.com/FeliMattei/TeamFight-Tactics/blob/master/README.md#proyectil-de-plata)  
+Criterio de Búsqueda: El más cercano  
+Acumula maná al atacar a un oponente.
 
 ## Habilidades
 Cada habilidad necesita un requerimiento de maná para su ejecución, que se obtendrá dependiendo del campeón.  
@@ -125,27 +124,30 @@ El campeón achuchillará al rival causándole un daño básico y recuperará la
 ## Criterio de búsqueda
 Los campeones poseen un criterio que van a usar al momento de seleccionar un objetivo para atacar.  
 
-#### El más cercano
+### El más cercano
 Atacará al campeón que se encuentre más cerca.  
 
-#### El de menos vida
+### El de menos vida
 Localizará al campeón enemigo con menos vida para atacarlo.  
 
 ## Sinergias
 
 Se forman mediante la combinación de roles para modificar las estadísticas de cada campeón, y se activará al iniciar el combate.  
 
-#### Tiradores
+### Tiradores
+![Tirador](imagenes/Visuales/sinergias/tirador_off.png)  
 
 • Necesita dos campeones con este rol para activarse.  
 • Los que cumplan con este requisito se les duplicará el rango de ataque.  
 
-#### Asesinos
+### Asesinos
+![Asesino](imagenes/Visuales/sinergias/asesino_off.png)  
 
 • Necesita dos campeones con este rol para activarse.  
 • Los que cumplan con este requisito se les duplicará la velocidad de ataque.  
 
-#### Scouts
+### Scouts
+![Scout](imagenes/Visuales/sinergias/scout_off.png)  
 
 • Necesita tres campeones con este rol para activarse.  
 • El criterio de búsqueda de los Scouts cambiará al más cercano.  
