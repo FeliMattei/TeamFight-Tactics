@@ -140,7 +140,7 @@ El campeón realizará un ataque de daño verdadero, igual al doble de su daño 
 #### Cuchillada sombría
 El campeón achuchillará al rival causándole un daño básico y recuperará la mitad del daño en forma de vida.  
 
-#### Cuchillada sombría
+#### Destino sellado
 El campeón ocasionará un impacto con su espada a su oponente generándole una muerte súbita.
 
 ## Criterio de búsqueda
