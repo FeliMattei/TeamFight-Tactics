@@ -14,6 +14,7 @@ import visuales.*
  * 			> Devolver Danio: El campeón recibirá la mitad del daño y devolverá al enemigo la otra mitad.
  *			> Proyectil de Plata: El campeón realizará un ataque de daño de verdadero igual al doble de su daño básico.
  * 			> Cuchillada Sombría: El campeón achuchillará al rival realizandole un daño básico y recuperará la mitad del daño en forma de vida.
+ * 			> Destino Sellado: El campeón eliminará automáticamente a su enemigo sin importar su vida ni defensas.
  */
 
 object ataqueBasico {
