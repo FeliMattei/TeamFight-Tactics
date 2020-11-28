@@ -1,13 +1,14 @@
-import wollok.game.*
-import jugador.*
+import configuracion.*
 import contrincante.*
+import wollok.game.*
 import campeones.*
 import combate.*
+import jugador.*
 import tienda.*
 
 object teclado {
 
-	var property estado = teclado_tienda
+	var property estado = teclado_inicio
 
 	var property position = game.at(8, 1)
 	var property image = "imagenes/Visuales/estados/teclado_tienda.png"
@@ -72,6 +73,25 @@ class EstadoSelector {
 	method onPressNum8() {}
 	method onPressNum9() {}
 	
+}
+
+object teclado_inicio inherits EstadoSelector {
+	override method onPressI() {}
+	override method onPressB() {}
+	override method onPressV() {}
+	override method onPressC() {}
+	override method onPressD() {}
+	override method onPressG() {}
+	override method onPressEnter() { inicio.remover() }
+	override method onPressNum1() {}
+	override method onPressNum2() {}
+	override method onPressNum3() {}
+	override method onPressNum4() {}
+	override method onPressNum5() {}
+	override method onPressNum6() {}
+	override method onPressNum7() {}
+	override method onPressNum8() {}
+	override method onPressNum9() {}
 }
 
 object teclado_combate inherits EstadoSelector {

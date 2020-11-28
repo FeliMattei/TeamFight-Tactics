@@ -59,7 +59,6 @@ class Ashe inherits Campeon {
 	var property mana = 0
 	var property danioBasico = 70
 	var property danioMagico = 3
-	var property velocidadDeAtaque = 1500
 
 	var property habilidad = new FlechaEncantada()
 }
@@ -78,7 +77,6 @@ class Braum inherits Campeon {
 	var property mana = 0
 	var property danioBasico = 0
 	var property danioMagico = 0
-	var property velocidadDeAtaque = 2000
 	
 	var property habilidad = new DevolverDanio()
 		
@@ -112,7 +110,6 @@ class Enemigo inherits Campeon {
 	var property mana = 0
 	var property danioBasico = 70
 	var property danioMagico = 3
-	var property velocidadDeAtaque = 2000
 
 	var property habilidad = new FlechaEncantada()
 }
@@ -131,7 +128,6 @@ class Vayne inherits Campeon {
 	var property mana = 0
 	var property danioBasico = 70
 	var property danioMagico = 3
-	var property velocidadDeAtaque = 1300
 
 	var property habilidad = new ProyectilDePlata()
 }
@@ -150,7 +146,6 @@ class Zed inherits Campeon {
 	var property mana = 0
 	var property danioBasico = 55
 	var property danioMagico = 3
-	var property velocidadDeAtaque = 1250
 
 	var property habilidad = new CuchilladaSombria()
 	

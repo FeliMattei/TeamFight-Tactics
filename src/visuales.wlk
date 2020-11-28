@@ -233,7 +233,7 @@ class ZedVisual inherits CampeonVisual {
 	var property image =  "imagenes/Campeones/zed.png"
 	var property barraDeVida = new BarraVidaCampeones()
 	
-	var property velocidadDeAtaque = 1500
+	var property velocidadDeAtaque = 1250
 	var property rango = 1
 	
 	var property criterioDeBusqueda = elMasCercano

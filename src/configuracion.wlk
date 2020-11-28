@@ -21,6 +21,7 @@ object juego {
 		self.configurarTienda()
 		self.configurarSinergias()
 		self.configurarStatsVisuales()
+		inicio.ejecutar()
 		teclado.configurar()
 	}
 		
@@ -79,5 +80,17 @@ object derrota{
 	method ejecutar(){ 
 		teclado.estado(teclado_final)
 		game.schedule(700, { game.addVisual(self)} )
+	}
+}
+
+object inicio{
+	var property position = game.at(0,0)
+	method image() = "imagenes/Escenarios/inicio.png"
+	method ejecutar(){ 
+		game.schedule(300, { game.addVisual(self) } )
+	}
+	method remover(){
+		teclado.estado(teclado_tienda)
+		game.removeVisual(self)
 	}
 }
