@@ -33,15 +33,16 @@ Cada campeón posee una [habilidad](https://github.com/FeliMattei/TeamFight-Tact
 
 #### Estadísticas:  
 Precio: 1  
-Vida: 500  
-Armadura: 5  
-Resistencia Mágica: 5  
-Rango: 2  
-Daño Mágico: 3  
-Daño Básico: 70  
-Velocidad de Ataque: 1450  
+Vida: 640  
+Armadura: 45  
+Resistencia Mágica: 30  
+Rango: 1  
+Daño Mágico: 0  
+Daño Básico: 0  
+Velocidad de Ataque: 1800  
 Rol: Scout  
 Habilidad: [Devolver Daño](https://github.com/FeliMattei/TeamFight-Tactics/blob/master/README.md#devolver-daño) o [Ponerse Duro](https://github.com/FeliMattei/TeamFight-Tactics/blob/master/README.md#ponerse-duro)  
+Criterio de búsqueda: El más cercano  
 Acumula maná al recibir ataques.  
 
 ### Ashe
@@ -57,9 +58,9 @@ Rango: 2
 Daño Mágico: 3  
 Daño Básico: 70  
 Velocidad de Ataque: 1450  
-Criterio de Búsqueda: El más cercano  
 Rol: Tirador  
 Habilidad: [Flecha Encantada](https://github.com/FeliMattei/TeamFight-Tactics/blob/master/README.md#flecha-encantada)  
+Criterio de Búsqueda: El más cercano  
 Acumula maná al atacar a un oponente.  
 
 ### Zed
@@ -69,14 +70,15 @@ Acumula maná al atacar a un oponente.
 #### Estadísticas:  
 Precio: 2  
 Vida: 500  
-Armadura: 5  
-Resistencia Mágica: 5  
-Rango: 2  
+Armadura: 10  
+Resistencia Mágica: 15  
+Rango: 1  
 Daño Mágico: 3  
-Daño Básico: 70  
-Velocidad de Ataque: 1450  
+Daño Básico: 55  
+Velocidad de Ataque: 1250  
 Rol: Asesino  
 Habilidad: [Cuchillada Sombría](https://github.com/FeliMattei/TeamFight-Tactics/blob/master/README.md#cuchillada-sombría)  
+Criterio de Búsqueda: El más cercano  
 Ejecuta la habilidad sin requerir de la maná.
 
 ### Vayne
@@ -85,16 +87,17 @@ Ejecuta la habilidad sin requerir de la maná.
 
 #### Estadísticas:  
 Precio: 3  
-Vida: 500  
-Armadura: 5  
+Vida: 430  
+Armadura: 10  
 Resistencia Mágica: 5  
 Rango: 2  
 Daño Mágico: 3  
 Daño Básico: 70  
-Velocidad de Ataque: 1450  
+Velocidad de Ataque: 1400  
 Criterio de Búsqueda: El más cercano  
 Rol: Tirador  
 Habilidad: [Proyectil de Plata](https://github.com/FeliMattei/TeamFight-Tactics/blob/master/README.md#proyectil-de-plata)  
+Criterio de Búsqueda: El más cercano  
 Acumula maná al atacar a un oponente.
 
 ## Habilidades
