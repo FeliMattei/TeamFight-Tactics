@@ -100,6 +100,25 @@ Habilidad: [Proyectil de Plata](https://github.com/FeliMattei/TeamFight-Tactics/
 Criterio de Búsqueda: El más cercano  
 Acumula maná al atacar a un oponente.
 
+### Yone
+
+![Yone](imagenes/Campeones/yone.png)   *"La muerte es como el viento, siempre a mi lado"*  
+
+#### Estadísticas:  
+Precio: 3  
+Vida: 580  
+Armadura: 20  
+Resistencia Mágica: 10  
+Rango: 2  
+Daño Mágico: 3  
+Daño Básico: 65  
+Velocidad de Ataque: 1350  
+Criterio de Búsqueda: El de menos vida  
+Rol: Asesino  
+Habilidad: [Destino Sellado](https://github.com/FeliMattei/TeamFight-Tactics/blob/master/README.md#destino-sellado)  
+Criterio de Búsqueda: El más cercano  
+Acumula maná al atacar a un oponente.
+
 ## Habilidades
 Cada habilidad necesita un requerimiento de maná para su ejecución, que se obtendrá dependiendo del campeón.  
 
@@ -120,6 +139,9 @@ El campeón realizará un ataque de daño verdadero, igual al doble de su daño 
 
 #### Cuchillada sombría
 El campeón achuchillará al rival causándole un daño básico y recuperará la mitad del daño en forma de vida.  
+
+#### Cuchillada sombría
+El campeón ocasionará un impacto con su espada a su oponente generándole una muerte súbita.
 
 ## Criterio de búsqueda
 Los campeones poseen un criterio que van a usar al momento de seleccionar un objetivo para atacar.  
