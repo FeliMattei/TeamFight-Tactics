@@ -16,7 +16,7 @@ Basado en el League Of Legends, TeamFight Tactics es un juego de estrategia indi
 
 ## ¿Cómo jugar?
 
-El juego se desarrolla en una arena donde se llevará a cabo el combate, encabezado por un jugador y un rival. Con el oro inicial deberás adquirir un [campeón](https://github.com/FeliMattei/TeamFight-Tactics/blob/master/README.md#campeón) de la tienda para iniciar el primer round *(Podés guiarte con la configuración del [teclado](https://github.com/FeliMattei/TeamFight-Tactics/blob/master/README.md#configuración-del-teclado))*.  
+El juego se desarrolla en una arena donde se llevará a cabo el combate, encabezado por un jugador y un rival. Con el oro inicial deberás adquirir un [campeón](https://github.com/FeliMattei/TeamFight-Tactics/blob/master/README.md#campeones) de la tienda para iniciar el primer round *(Podés guiarte con la configuración del [teclado](https://github.com/FeliMattei/TeamFight-Tactics/blob/master/README.md#configuración-del-teclado))*.  
 A medida que avancen las rondas subirás de nivel, lo que te permitirá colocar en la arena más campeones para la lucha. Además, sumarás oro al finalizar cada una de ellas.  
 En el caso de perder, se le restará vida al jugador dependiendo de la cantidad de campeones enemigos y del round en el que se encuentren.  
 
