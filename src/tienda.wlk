@@ -52,7 +52,7 @@ object tienda {
 }
 
 object campeonesTiendaAleatorios {
-	const campeones = [new AsheTienda(), new BraumTienda(), new VayneTienda(), new ZedTienda()]
+	const campeones = [new AsheTienda(), new BraumTienda(), new VayneTienda(), new ZedTienda(), new YoneTienda()]
 	
 	method devolver(){
 		const posicion = 0.randomUpTo(campeones.size()).roundUp() - 1

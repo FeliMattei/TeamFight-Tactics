@@ -153,3 +153,21 @@ class Zed inherits Campeon {
 		habilidad.ofensiva(self, enemigo)
 	}
 }
+
+// Yone
+class Yone inherits Campeon {
+	var property vidaInicial = 580
+	var property vida = vidaInicial
+	var property resistenciaMagica = 10
+	var property armadura = 20
+	
+	var property visualAsociada = null
+	
+	var property rol = asesino
+
+	var property mana = 0
+	var property danioBasico = 65
+	var property danioMagico = 3
+
+	var property habilidad = new DestinoSellado()
+}

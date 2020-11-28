@@ -257,6 +257,39 @@ class ZedVisual inherits CampeonVisual {
 	}
 }
 
+class YoneVisual inherits CampeonVisual {
+	
+	var property campeonAsociado = null
+	var property generadorAsociado = new YoneTienda()
+		
+	var property position = null
+	var property image =  "imagenes/Campeones/yone.png"
+	var property barraDeVida = new BarraVidaCampeones()
+	
+	var property velocidadDeAtaque = 1350
+	var property rango = 1
+	
+	var property criterioDeBusqueda = elDeMenosVida
+	
+	var property targetAtaque = null
+	var property indexTick = null
+	
+	method asociarCampeon(){
+		self.campeonAsociado(new Yone())
+		self.campeonAsociado().visualAsociada(self)
+	}
+	
+	method crearVisual(x, y){
+		const visual = new YoneVisual(position = game.at(x,y))	
+		const barraVida = visual.barraDeVida()
+		
+		game.addVisual(visual)
+		barraVida.asignar(x, y)
+		
+		return visual
+	}
+}
+
 // ******************* BARRA DE VIDA *******************
 
 class BarraDeVida{
@@ -383,3 +416,8 @@ class Animacion_DevolverDanio_Ataque inherits Animacion_Ataque { var property im
 class Animacion_DevolverDanio_Defensa inherits Animacion_Defensa { var property imagen = "imagenes/Visuales/animaciones/devolverDanioDefensa/devolverDanioDefensa_" }
 class Animacion_ProyectilDePlata inherits Animacion_Ataque { var property imagen = "imagenes/Visuales/animaciones/proyectilDePlata/proyectilDePlata_" }
 class Animacion_CuchilladaSombria inherits Animacion_Ataque { var property imagen = "imagenes/Visuales/animaciones/cuchilladaSombria/cuchilladaSombria_" }
+class Animacion_DestinoSellado inherits Animacion_Ataque { var property imagen = "imagenes/Visuales/animaciones/destinoSellado/destinoSellado_" }
+
+
+
+

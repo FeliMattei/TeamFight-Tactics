@@ -93,3 +93,14 @@ class CuchilladaSombria {
 		animacion.iniciar(enemigo.visualAsociada(), campeon.visualAsociada())	
 	}
 }
+
+class DestinoSellado {
+	const property manaRequerida = 7
+	
+	method ofensiva(campeon, enemigo){
+		const vidaEnemigo = enemigo.vida()
+		const animacion = new Animacion_CuchilladaSombria()
+		animacion.iniciar(enemigo.visualAsociada(), campeon.visualAsociada())	
+		enemigo.perderVida(vidaEnemigo)
+	}
+}

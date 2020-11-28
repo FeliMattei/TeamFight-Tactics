@@ -16,7 +16,7 @@ object jugador {
 	var property visualesBanco = []
 	
 	var property nivel = 1
-	var property oro = 2
+	var property oro = 200
 	
 	var property barraDeVida = new BarraVidaJugador()
 	

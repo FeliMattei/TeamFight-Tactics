@@ -4,7 +4,7 @@ import jugador.*
 import visuales.*
 
 object campeonesAleatorios {
-	const campeones = [new AsheVisual(), new BraumVisual(), new VayneVisual(), new ZedVisual()]
+	const campeones = [new AsheVisual(), new BraumVisual(), new VayneVisual(), new ZedVisual(), new YoneVisual()]
 	
 	method devolver(){
 		const posicion = 0.randomUpTo(campeones.size()).roundUp() - 1

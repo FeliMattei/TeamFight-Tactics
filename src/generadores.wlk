@@ -98,3 +98,25 @@ class ZedTienda {
 		return visual
 	}
 }
+
+class YoneTienda {
+	const property precio = 3
+	
+	var property position = null
+	
+	method image() = "imagenes/Tienda/yone_tienda.png"
+	
+	method generarVisualTienda(x, y){
+		const visual = new YoneTienda(position = game.at(x,y))
+		game.addVisual(visual)
+		
+		return visual
+	}
+	
+	method generarVisual(x, y) {
+		const visual = new YoneVisual(position = game.at(x,y))	
+		game.addVisual(visual)
+		
+		return visual
+	}
+}
