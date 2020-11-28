@@ -31,8 +31,6 @@ Cada campeón posee una [habilidad](https://github.com/FeliMattei/TeamFight-Tact
 
 ![Braum](imagenes/Campeones/braum.png)   *"El corazón es el músculo más fuerte"*
 
-Es un campeón que acumula maná al recibir ataques.
-
 #### Estadísticas:  
 Precio: 1  
 Vida: 500  
@@ -42,14 +40,13 @@ Rango: 2
 Daño Mágico: 3  
 Daño Básico: 70  
 Velocidad de Ataque: 1450  
-Rol: Scout
-Habilidad: [Devolver Daño](https://github.com/FeliMattei/TeamFight-Tactics/blob/master/README.md#devolver-daño) o [Ponerse Duro](https://github.com/FeliMattei/TeamFight-Tactics/blob/master/README.md#ponerse-duro)
+Rol: Scout  
+Habilidad: [Devolver Daño](https://github.com/FeliMattei/TeamFight-Tactics/blob/master/README.md#devolver-daño) o [Ponerse Duro](https://github.com/FeliMattei/TeamFight-Tactics/blob/master/README.md#ponerse-duro)  
+Acumula maná al recibir ataques.  
 
 ### Ashe
 
 ![Ashe](imagenes/Campeones/ashe.png)   *"Todo el mundo en una flecha"*
-
-Acumula maná al atacar a un oponente.
 
 #### Estadísticas:  
 Precio: 2  
@@ -62,13 +59,12 @@ Daño Básico: 70
 Velocidad de Ataque: 1450  
 Criterio de Búsqueda: El más cercano  
 Rol: Tirador  
-Habilidad: [Flecha Encantada](https://github.com/FeliMattei/TeamFight-Tactics/blob/master/README.md#flecha-encantada)
+Habilidad: [Flecha Encantada](https://github.com/FeliMattei/TeamFight-Tactics/blob/master/README.md#flecha-encantada)  
+Acumula maná al atacar a un oponente.  
 
 ### Zed
 
 ![Zed](imagenes/Campeones/zed.png)   *"La espada invisible es la mas mortífera"*
-
-Ejecuta la habilidad sin requerir de la maná.
 
 #### Estadísticas:  
 Precio: 2  
@@ -79,14 +75,13 @@ Rango: 2
 Daño Mágico: 3  
 Daño Básico: 70  
 Velocidad de Ataque: 1450  
-Rol: Asesino 
-Habilidad: [Cuchillada Sombría](https://github.com/FeliMattei/TeamFight-Tactics/blob/master/README.md#cuchillada-sombría)
+Rol: Asesino  
+Habilidad: [Cuchillada Sombría](https://github.com/FeliMattei/TeamFight-Tactics/blob/master/README.md#cuchillada-sombría)  
+Ejecuta la habilidad sin requerir de la maná.
 
 ### Vayne
 
 ![Vayne](imagenes/Campeones/vayne.png)   *"Persigamos a los que han caído en la oscuridad"*
-
-Acumula maná al atacar a un oponente.
 
 #### Estadísticas:  
 Precio: 3  
@@ -99,7 +94,8 @@ Daño Básico: 70
 Velocidad de Ataque: 1450  
 Criterio de Búsqueda: El más cercano  
 Rol: Tirador  
-Habilidad: [Proyectil de Plata](https://github.com/FeliMattei/TeamFight-Tactics/blob/master/README.md#proyectil-de-plata)
+Habilidad: [Proyectil de Plata](https://github.com/FeliMattei/TeamFight-Tactics/blob/master/README.md#proyectil-de-plata)  
+Acumula maná al atacar a un oponente.
 
 ## Habilidades
 Cada habilidad necesita un requerimiento de maná para su ejecución, que se obtendrá dependiendo del campeón.  
@@ -125,27 +121,30 @@ El campeón achuchillará al rival causándole un daño básico y recuperará la
 ## Criterio de búsqueda
 Los campeones poseen un criterio que van a usar al momento de seleccionar un objetivo para atacar.  
 
-#### El más cercano
+### El más cercano
 Atacará al campeón que se encuentre más cerca.  
 
-#### El de menos vida
+### El de menos vida
 Localizará al campeón enemigo con menos vida para atacarlo.  
 
 ## Sinergias
 
 Se forman mediante la combinación de roles para modificar las estadísticas de cada campeón, y se activará al iniciar el combate.  
 
-#### Tiradores
+### Tiradores
+![Tirador](imagenes/Visuales/sinergias/tirador_off.png)  
 
 • Necesita dos campeones con este rol para activarse.  
 • Los que cumplan con este requisito se les duplicará el rango de ataque.  
 
-#### Asesinos
+### Asesinos
+![Asesino](imagenes/Visuales/sinergias/asesino_off.png)  
 
 • Necesita dos campeones con este rol para activarse.  
 • Los que cumplan con este requisito se les duplicará la velocidad de ataque.  
 
-#### Scouts
+### Scouts
+![Scout](imagenes/Visuales/sinergias/scout_off.png)  
 
 • Necesita tres campeones con este rol para activarse.  
 • El criterio de búsqueda de los Scouts cambiará al más cercano.  
