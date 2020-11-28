@@ -24,7 +24,7 @@ La partida finalizará cuando muera alguno de los jugadores.
 
 ## Campeones
 
-Son los encargados de combatir en la arena. Cada uno de ellos se mueve de manera independiente, según la [estrategia de búsqueda](https://github.com/FeliMattei/TeamFight-Tactics/blob/master/README.md#estrategia-de-búsqueda) planificada.  
+Son los encargados de combatir en la arena. Cada uno de ellos se mueve de manera independiente, según la [estrategia de búsqueda](https://github.com/FeliMattei/TeamFight-Tactics/blob/master/README.md#criterio-de-búsqueda) planificada.  
 Cada campeón posee una [habilidad](https://github.com/FeliMattei/TeamFight-Tactics/blob/master/README.md#habilidades) y un rol que, al acumular una determinada cantidad de campeones con dicho rol, se activará una [sinergia](https://github.com/FeliMattei/TeamFight-Tactics/blob/master/README.md#sinergias) que modificará sus estadísticas.
 
 ### Braum
