@@ -139,15 +139,15 @@ object combate {
 	method esElUltimo(){
 		if(campeonesAliado.isEmpty()){
 			const danio = self.perderVidaSegunCampeones(campeonesEnemigo)
-			jugador.perderRound(danio)
 			visualResultado.derrota()
 			self.reiniciarRound()
+			jugador.perderRound(danio)
 		} else if (campeonesEnemigo.isEmpty()){
 			jugador.ganarRound()
 			const danio = self.perderVidaSegunCampeones(campeonesAliado)
-			contrincante.perderRound(danio)
 			visualResultado.victoria()
 			self.reiniciarRound()
+			contrincante.perderRound(danio)
 		}
 	}
 	
